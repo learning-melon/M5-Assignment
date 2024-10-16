@@ -1,5 +1,5 @@
 // ADD A FUNCTION CALLED CALCULATE 
-function calculate(x,y,operation){
+const calculate = (x,y,operation)=>{
     switch(operation){
         case "add":
             return x + y
